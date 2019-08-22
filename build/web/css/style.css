@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+    margin: 0px;
+    
+}
+
+body {
+  background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #C7D6F1;
+  font-size: 1.2rem;
+}
+
+.content {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper {
+  position: relative;
+  width: 600px;
+  margin: 50px auto;
+  background-color: transparent;
+  border-radius: 5px;
+      cursor: pointer;
+    -webkit-box-shadow: 4px 3px 167px 31px rgba(46,74,117,0.68);
+-moz-box-shadow: 4px 3px 167px 31px rgba(46,74,117,0.68);
+box-shadow: 4px 3px 167px 31px rgba(46,74,117,0.68);
+
+  
+}
+.wrapper:hover{
+ 
+}
+/*  responsiver*/
+
+.registred {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background: #FFF;
+  display: none;
+  margin: 100px auto;
+  text-align: center;
+-webkit-box-shadow: 4px 3px 67px 31px rgba(46,74,117,0.68);
+-moz-box-shadow: 4px 3px 67px 31px rgba(46,74,117,0.68);
+box-shadow: 4px 3px 67px 31px rgba(46,74,117,0.68);
+
+    
+    cursor: pointer;
+}
+.registred button {
+  width: 100px;
+  background: #3FA6FD;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  color: #FFF;
+}
+.registred h1 {
+  font-size: 1rem;
+}
+
+.login--content {
+  display: none;
+}
+
+.register--content, .login--content {
+  width: 500px;
+  margin: 100px auto;
+}
+
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 0px;
+  top: 20px;
+  font-size: 11px;
+  color: #B3BBCE;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.email, .password, .name {
+  position: relative;
+  margin: 0px 0;
+}
+input[type='text'] , input[type='password']{
+    background-image: url(../image/user.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+        background-position: 5px center;
+
+    
+}
+
+input[type='email']{
+    background-image: url(../image/close-envelope.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 5px center;
+}
+input[type='password']{
+    background-image: url(../image/key-logic.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+        background-position: 5px center;
+
+}
+.inputText {
+  font-size: 12px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #B3BBCE;
+  outline: none;
+  color: #9390A1;
+    background-color: transparent;
+  font-weight: 900;
+    font-size: 18px;
+    font-family: cursive;
+    padding-left: 10%;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: 2px;
+  bottom: 10px;
+  left: 0px;
+  font-size: 11px;
+  opacity: 1;
+  color: #3FA6FD;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.social {
+  width: 100%;
+  background: #3B5999;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+.social a {
+  text-decoration: none;
+  color: #FFF;
+}
+.social span i {
+  color: #fff;
+  float: left;
+  line-height: 45px;
+  margin-left: 26px;
+}
+
+.via-email {
+  text-align: center;
+  padding: 20px 0;
+  color: #8291AC;
+}
+
+input[type="submit"] {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  background-color: #3FA6FD;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 24px 0 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  font-weight: 100;
+}
+
+.login--button {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  
+}
+.login--button a {
+  background: #3FA6FD;
+  padding: 7px 14px;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login {
+  display: none;
+}
+
+@media screen and (max-width: 580px) {
+    
+    .wrapper{
+        position: relative;
+       
+    }
+   
+    .l2{
+        width: 90%;
+    }
+    
+    
+    
+    
+  
+}
+
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 90%;
+  }
+    
+}
+@media screen and (max-width: 280px) {
+  .wrapper {
+    width: 80%;
+  }
+    
+}

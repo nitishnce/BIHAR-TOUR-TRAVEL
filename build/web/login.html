@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- <meta charset="UTF-8">  -->
+  <title>Register Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">  
+  
+     
+  <link rel="stylesheet" href="css/bootstrap.min.css">    
+ <link rel="stylesheet" href="css/mycss.css">  
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">   
+
+  
+</head>
+
+<body>
+        <!-- Navigation section
+================================================== -->
+<section class="navbar navbar-fixed-top  q1" role="navigation" style="position:relative;">
+	<div class="container q3" >
+
+		<div id="p1">
+			<button  class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				
+                <span  class="icon icon-bar"></span>
+				<span  class="icon icon-bar"></span>
+                <span  class="icon icon-bar"></span>
+			</button>
+                    <a href="index.html"><img  style="float:left;" class="img-responsive" src="images/logo/logo.png" class=" navbar-brand" /> </a>
+		</div>
+		<div class="collapse navbar-collapse q2" >
+			<ul class="nav navbar-nav navbar-right">
+            
+				
+                
+                            <li><a href="newsfeed.jsp" >News Feed</a></li>
+                            <li><a href="Package.jsp">Packages</a></li>
+                            <li><a href="gallery.jsp">Gallery</a></li>
+                            <li ><a href="competition.jsp"> Competition </a> <!--<ul  class="collapse navbar-collapse" > 
+                    <li  ><a href="#" >Week of the Pic</a></li>
+                    <li data-toggle="collapse" ><a href="#" >Month of the Pic</a></li></ul>   --></li>
+                            <li><a href="login.html" >Registration /LOGIN</a></li>
+				
+                            <li><a href="contact.jsp" >Contact</a></li>
+			</ul>
+		</div>
+
+	</div>
+</section>
+
+    
+    
+    
+    
+  <div class="content">
+	
+	<div class="wrapper">
+		
+	<div class="register--content l2">
+		
+		<div class="login--button" style="padding-bottom: 10px;">
+		<span style="color:white;">If you have an   account</span>
+			<a class="btn" data-popup-open="register-popup" href="#">Login</a>
+		</div>
+            
+		
+		 <h1 style="font-size: 20px;">Create a new account</h1>
+		<div class="social" id="l1">
+			<a href=""><span class="facebook-icon"><i class="fa fa-facebook"></i></span>Register with <strong>Facebook</strong></a>
+		</div>
+		
+	  <div class="via-email">
+		  <span>or via email</span>
+		</div>
+		
+		<form  action="store" method="post">
+  <input type="text" class="inputText" placeholder="name" name="name" required/>
+
+		
+  <input type="email" class="inputText" placeholder="Email" name="Email" required/>
+ 
+      
+
+  <input type="password" class="inputText" placeholder="Password" name="password" required/>
+
+		<input type="submit" id="l1"  value="Sign Up" name="register">
+        </form>
+		</div>	
+		
+		
+		
+		
+	<div class="login--content l2">
+		
+		<div class="login--button">
+		<span style="color:white;">Create a new  account</span>
+			<a class="btn-reg" data-popup-open="register-popup" href="#">Sign up</a>
+		</div>
+		<h1 style="font-size: 20px;">Login to your account</h1>
+		<div class="social" id="l1">
+			<a href="#"><span class="facebook-icon"><i class="fa fa-facebook"></i></span>Login with <strong>Facebook</strong></a>
+		</div>
+		
+		<form action="match" method="post"> 
+		<div class="email">
+                   
+  <input type="email" class="inputText" placeholder="Email" name="email" required />
+</div>
+                
+
+<div class="password">
+    <input type="password" class="inputText" placeholder="Password" name="password" required />
+  
+</div>
+
+               <input type="submit"   value="Login"> 
+                </form>
+		</div>
+	
+  </div>
+	
+      
+	
+	
+	
+</div>
+    
+     <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+  
+    
+  <script src="js/jquery-2.1.1.min.js"></script>
+  
+  
+
+  <script src="js/index.js"></script>    
+
+</body>
+</html>
