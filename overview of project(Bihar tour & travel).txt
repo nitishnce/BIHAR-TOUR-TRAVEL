@@ -1,0 +1,15 @@
+
+						BIHAR TOUR & TRAVEL
+"Bihar Tour & Travel" is a web based  application project.This application provide packages for travelling indifferent places of bihar.
+For IDE we have used Netbeans and for local server we have used Apache Tomcat server and  Mysql  for Database.
+FOr back end working we have used Jsp and Servlet and Html ,Css and Javascript have been used for design purpose.
+Through this site an interested person make his account and select the relevent destination and package.
+The admin go through site ,maintain packages,and make client trip.
+This site provide facilites of asking your quary,sending feedback and also ur posted picture will be selected as pick of the week or month.
+Student info participated in this
+project are........
+    	 				Sujata Suman(13cs05)
+                      		        Pooja Patel(13cs28)
+                                   	 Aamir Azam(13cs27)
+                                  	 Nitish Kumar(13cs31)          
+          
